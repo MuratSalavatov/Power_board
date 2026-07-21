@@ -1,0 +1,26 @@
+# KiCad временные и резервные файлы
+*-backups/
+*-backup/
+.history/
+*.bak
+*.bck
+*.tmp
+*.000
+*_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pcb-bck
+*.kicad_sch-bck
+*-cache.lib
+fp-info-cache
+
+# Файлы проектов для других EDA (если есть)
+*.DS_Store
+Thumbs.db
+
+# Логи и отчёты (если генерируете)
+*.log
+*.err
+*.net
+*.xml
+*.html
