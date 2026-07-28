@@ -421,7 +421,7 @@
         "uuid": "0c96592f-cc66-4a92-8e29-bb9aa29ff8b8"
       }
     ],
-    "used_designators": "C8_TANTAL1,U6-8,C6_TANTAL1,R15-22,R35-38,R68-73,C9_TANTAL1,DRV1-6,C5_TANTAL1,C4_TANTAL1,C3_TANTAL1,I5-10,D1-24,C25-32,C35-38,#PWR5,#PWR12,#PWR52-63,#PWR90-117,#PWR124-141,#PWR190-207",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
