@@ -466,15 +466,15 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "ignore",
+      "pin_not_driven": "error",
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "error",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -666,7 +666,7 @@
         "uuid": "0c96592f-cc66-4a92-8e29-bb9aa29ff8b8"
       }
     ],
-    "used_designators": "#PWR1-170,C8_TANTAL1,C1-48,C5_TANTAL1,C3_TANTAL1,C4_TANTAL1,C6_TANTAL1,C9_TANTAL1,con1,con3,L1-3,M_Con1-6,Con2,D1-29,DRV1-6,I1-14,LED1,R1-59,U1-8,J1-2,JP1-4",
+    "used_designators": "#PWR1-188,C8_TANTAL1,C1-87,C5_TANTAL1,C3_TANTAL1,C4_TANTAL1,C6_TANTAL1,C9_TANTAL1,con1-3,L1-6,M_Con1-8,Con1-4,D1-35,DRV1-7,I1-14,LED1,R1-74,U1-20,J1-6,JP1-9",
     "variants": []
   },
   "sheets": [
