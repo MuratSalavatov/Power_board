@@ -18204,7 +18204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown"
+		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugUp"
 			(at 166.37 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -18964,7 +18964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown"
+		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugUp"
 			(at 262.89 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -20207,7 +20207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown"
+		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugUp"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -31414,7 +31414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown"
+		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugUp"
 			(at 167.64 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -34471,7 +34471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown"
+		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugUp"
 			(at 71.12 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -35404,7 +35404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown"
+		(property "Footprint" "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugUp"
 			(at 74.93 55.88 0)
 			(hide yes)
 			(show_name no)
