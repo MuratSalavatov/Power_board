@@ -699,7 +699,7 @@
         "uuid": "0c96592f-cc66-4a92-8e29-bb9aa29ff8b8"
       }
     ],
-    "used_designators": "#PWR1-188,C8_TANTAL1,C1-87,C5_TANTAL1,C3_TANTAL1,C4_TANTAL1,C6_TANTAL1,C9_TANTAL1,con1-3,L1-6,M_Con1-8,Con1-4,D1-35,DRV1-7,I1-14,LED1,R1-74,U1-20,J1-6,JP1-9",
+    "used_designators": "#PWR1-188,C8_TANTAL1,C1-87,C5_TANTAL1,C3_TANTAL1,C4_TANTAL1,C6_TANTAL1,C9_TANTAL1,con1-3,con5,L1-6,M_Con1-8,Con1-4,D1-35,DRV1-7,I1-14,LED1,R1-74,U1-20,J1-7,JP1-9",
     "variants": []
   },
   "sheets": [
