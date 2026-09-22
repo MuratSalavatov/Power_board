@@ -2675,7 +2675,7 @@
 		)
 		(uuid "a17afdbd-33bc-4d9d-a94e-58168e966e58")
 	)
-	(text "Diode_SMD:D_SMC (done)\n\nConnector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (J1-J6) (done)\n\nArduino_UNO_R2 - для примерки (done)"
+	(text "Diode_SMD:D_SMC (done)\n"
 		(exclude_from_sim no)
 		(at 323.85 228.092 0)
 		(effects
@@ -7048,7 +7048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 261.62 53.34 0)
 			(hide yes)
 			(show_name no)
