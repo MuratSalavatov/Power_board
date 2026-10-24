@@ -1,0 +1,11 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CastomLibrary") (type "KiCad") (uri "${KIPRJMOD}/CastomLibrary.pretty") (options "") (descr ""))
+	(lib (name "jetBOT_Lib") (type "KiCad") (uri "${KIPRJMOD}/jetBOT_Lib.pretty") (options "") (descr ""))
+	(lib (name "jetBOT_Lib") (type "KiCad") (uri "C:/Users/murka/Desktop/Murat/shem/Plat_1/Logic_board/jetBOT_Lib.pretty") (options "") (descr ""))
+	(lib (name "CastomLibrary") (type "KiCad") (uri "C:/Users/murka/Desktop/Murat/shem/Plat_1/Logic_board/CastomLibrary.pretty") (options "") (descr ""))
+	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
+	(lib (name "Library_footprints") (type "KiCad") (uri "C:/Users/murka/Desktop/Murat/shem/Library_footprints.pretty") (options "") (descr ""))
+	(lib (name "CastomLibrary") (type "KiCad") (uri "C:/Users/murka/Desktop/Murat/shem/CastomLibrary.pretty") (options "") (descr ""))
+	(lib (name "Library_footprints") (type "KiCad") (uri "C:/Users/murka/Desktop/Murat/shem/Library_footprints.pretty") (options "") (descr ""))
+)
