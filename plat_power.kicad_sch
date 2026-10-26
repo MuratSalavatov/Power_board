@@ -1000,355 +1000,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:ISO1540"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ISO1540"
-				(at 3.81 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso1541.pdf"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "digital isolator i2c"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ISO1540_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy -1.27 0) (xy -0.635 -0.635) (xy -0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 -5.08)
-					(end 0 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 1.27 0) (xy 0.635 -0.635) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 1.27 -2.54) (xy 0.635 -3.175) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "ISO1540_1_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy -1.27 -2.54) (xy -0.635 -3.175) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VCC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "SDA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SCL1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SCL2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SDA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VCC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:Jumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -2533,134 +2184,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MyLIB:con_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "con"
-				(at -0.508 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "con_3_1_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "powerGost:+12v"
 			(power global)
 			(pin_names
@@ -3003,16 +2526,6 @@
 			)
 		)
 		(uuid "3bbe1268-b4a2-4c3e-85bc-6994edd8736f")
-	)
-	(text "Питание на логическую плату\n"
-		(exclude_from_sim no)
-		(at 271.78 46.228 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9981f9ee-745d-4898-b4bb-4f22661691a5")
 	)
 	(text "Цепь на мк\n15в - TPS5450DDAR - 5в - LD39050PU33R  - 3.3в"
 		(exclude_from_sim no)
@@ -3480,16 +2993,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 55.88) (xy 256.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0912e1f8-e81f-4d2b-a495-5fcb7345ee9d")
-	)
-	(wire
-		(pts
 			(xy 63.5 109.22) (xy 63.5 106.68)
 		)
 		(stroke
@@ -3507,16 +3010,6 @@
 			(type default)
 		)
 		(uuid "0a105a8a-0523-4e0a-9825-9036623ae115")
-	)
-	(wire
-		(pts
-			(xy 245.11 125.73) (xy 240.03 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b0b6a2c-1505-4f2b-b9d2-afc132dbd51e")
 	)
 	(wire
 		(pts
@@ -3617,16 +3110,6 @@
 			(type default)
 		)
 		(uuid "21049580-fdde-411a-84c3-080d91ce274d")
-	)
-	(wire
-		(pts
-			(xy 171.45 210.82) (xy 171.45 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2201df88-d14b-4fef-bdcf-38e5a1db5282")
 	)
 	(wire
 		(pts
@@ -3930,16 +3413,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 130.81) (xy 242.57 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4164d1ea-6608-4ceb-9c31-f8e28da9ae0a")
-	)
-	(wire
-		(pts
 			(xy 80.01 240.03) (xy 77.47 240.03)
 		)
 		(stroke
@@ -4050,16 +3523,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 53.34) (xy 257.81 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3437e2-54ba-40d5-971b-b4dcf53daf30")
-	)
-	(wire
-		(pts
 			(xy 128.27 222.25) (xy 128.27 228.6)
 		)
 		(stroke
@@ -4140,16 +3603,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 125.73) (xy 219.71 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "544915ae-29db-42c6-bd52-c91c540f00d7")
-	)
-	(wire
-		(pts
 			(xy 127 147.32) (xy 130.81 147.32)
 		)
 		(stroke
@@ -4227,16 +3680,6 @@
 			(type default)
 		)
 		(uuid "590e9b33-e91c-43da-b2f6-9337581cd570")
-	)
-	(wire
-		(pts
-			(xy 242.57 123.19) (xy 242.57 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e4b4db-39c2-4847-9cb6-cbe62c7b09da")
 	)
 	(wire
 		(pts
@@ -4680,16 +4123,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 123.19) (xy 219.71 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e27c4e-6dc1-475f-8dfb-c9aaa180b68c")
-	)
-	(wire
-		(pts
 			(xy 293.37 176.53) (xy 293.37 182.88)
 		)
 		(stroke
@@ -5010,16 +4443,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 123.19) (xy 242.57 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "986e9d67-9ebe-4ab9-9eb1-077a36b3bb46")
-	)
-	(wire
-		(pts
 			(xy 166.37 48.26) (xy 166.37 50.8)
 		)
 		(stroke
@@ -5100,16 +4523,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 130.81) (xy 242.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9edc74c1-b73e-443a-8908-51c78ca38eb0")
-	)
-	(wire
-		(pts
 			(xy 184.15 50.8) (xy 184.15 54.61)
 		)
 		(stroke
@@ -5117,16 +4530,6 @@
 			(type default)
 		)
 		(uuid "9ee428e4-f2cf-4e8a-a2e4-3d1bce9fc8aa")
-	)
-	(wire
-		(pts
-			(xy 171.45 207.01) (xy 175.26 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3fae342-50d2-4ee6-a6f3-097a21c3294c")
 	)
 	(wire
 		(pts
@@ -5190,16 +4593,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 128.27) (xy 240.03 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a914eb-6db6-4fcc-a9d5-13f0507f3300")
-	)
-	(wire
-		(pts
 			(xy 314.96 195.58) (xy 316.23 195.58)
 		)
 		(stroke
@@ -5247,16 +4640,6 @@
 			(type default)
 		)
 		(uuid "aa97be7f-c4c7-4143-8024-de8c9e13d54c")
-	)
-	(wire
-		(pts
-			(xy 218.44 130.81) (xy 218.44 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1408a3-1b8c-4a18-a510-b71b969705b7")
 	)
 	(wire
 		(pts
@@ -5600,16 +4983,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 128.27) (xy 219.71 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04b35fa-c1d1-4c48-a6b7-1fc15423fd7c")
-	)
-	(wire
-		(pts
 			(xy 184.15 48.26) (xy 190.5 48.26)
 		)
 		(stroke
@@ -5670,16 +5043,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 119.38) (xy 218.44 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6be646f-0000-4695-9b10-2eab423067db")
-	)
-	(wire
-		(pts
 			(xy 109.22 35.56) (xy 111.76 35.56)
 		)
 		(stroke
@@ -5687,16 +5050,6 @@
 			(type default)
 		)
 		(uuid "d6fcd781-f320-4d14-adc2-49284fa908ba")
-	)
-	(wire
-		(pts
-			(xy 171.45 209.55) (xy 175.26 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fd5d3a-5bd3-41f9-98d6-abe488e8de5e")
 	)
 	(wire
 		(pts
@@ -5780,16 +5133,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 55.88) (xy 256.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1367bc9-f4ba-4bd4-886a-558f54ee05c6")
-	)
-	(wire
-		(pts
 			(xy 115.57 157.48) (xy 115.57 162.56)
 		)
 		(stroke
@@ -5857,16 +5200,6 @@
 			(type default)
 		)
 		(uuid "ea020b5c-dbb7-4649-84ff-193852d1c4f9")
-	)
-	(wire
-		(pts
-			(xy 171.45 205.74) (xy 171.45 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead443d0-70ec-45da-a2f9-4c49c2b65cf6")
 	)
 	(wire
 		(pts
@@ -6020,16 +5353,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 130.81) (xy 218.44 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6547105-f7ed-4149-aa65-fb31fc93acc1")
-	)
-	(wire
-		(pts
 			(xy 99.06 247.65) (xy 102.87 247.65)
 		)
 		(stroke
@@ -6057,16 +5380,6 @@
 			(type default)
 		)
 		(uuid "f831a0d9-52d7-4253-ba7c-a4972f012b78")
-	)
-	(wire
-		(pts
-			(xy 255.27 50.8) (xy 257.81 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f887fca8-bcd1-4a46-b500-dbc15baa6d5b")
 	)
 	(wire
 		(pts
@@ -6196,30 +5509,6 @@
 			)
 		)
 	)
-	(global_label "SDA_INA"
-		(shape input)
-		(at 215.9 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ee24282-8298-45a8-9207-520b21f0edb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.3552 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SCL_INA"
 		(shape input)
 		(at 58.42 124.46 180)
@@ -6233,30 +5522,6 @@
 		(uuid "5f811927-aa73-430a-82b8-dea4ab84e295")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.9357 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL_INA"
-		(shape input)
-		(at 215.9 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8115a9b7-ff44-48ec-bc4c-3e5634ac94d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.4157 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,7 +5845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01703e10-2d60-4f08-a029-5325ba71e866")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR019"
 			(at 86.106 122.428 0)
 			(hide yes)
 			(show_name no)
@@ -6639,7 +5904,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6737,7 +6002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e92e84a-2bf5-4c32-b660-ce60f7fdde83")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR017"
 			(at 65.786 107.188 0)
 			(hide yes)
 			(show_name no)
@@ -6796,7 +6061,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6813,7 +6078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10192369-9c1c-4dd6-8207-59f5bfe11ea0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 91.694 82.042 0)
 			(hide yes)
 			(show_name no)
@@ -6871,7 +6136,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6889,7 +6154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106efaa8-b795-4308-92e9-a1d449dff40c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR041"
 			(at 134.874 254.762 0)
 			(hide yes)
 			(show_name no)
@@ -6948,7 +6213,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR047")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7231,7 +6496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20a5be60-b0b9-48bc-8f10-22b968ef032f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 91.186 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7290,7 +6555,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7371,90 +6636,6 @@
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyLIB:con_3")
-		(at 261.62 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "214562a8-a6bc-4abc-949f-f0e2949beb8e")
-		(property "Reference" "con1"
-			(at 265.43 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 261.62 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 261.62 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bdf89849-b4ce-4ae9-8d66-11bc14dc04d6")
-		)
-		(pin "3"
-			(uuid "35a73962-4258-4e99-9740-848d33e89cd8")
-		)
-		(pin "1"
-			(uuid "6b66d165-e1d2-4281-ab37-1896635aa27e")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "con1")
 					(unit 1)
 				)
 			)
@@ -7698,82 +6879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "powerGost:+5v")
-		(at 255.27 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25518bcd-65de-4a89-a522-4017aef783b6")
-		(property "Reference" "#PWR08"
-			(at 255.27 49.784 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "+5v*"
-			(at 254.127 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d81a5f6-ed06-4c2c-a532-44225d88add7")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "powerGost:GND")
 		(at 85.09 166.37 180)
 		(unit 1)
@@ -7785,7 +6890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2930a42f-c2d1-4d63-a3ad-766514a42f62")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR026"
 			(at 82.804 165.862 0)
 			(hide yes)
 			(show_name no)
@@ -7844,7 +6949,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR0198")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7965,7 +7070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b30d0b-bcce-4d8a-afb5-8a012352c1de")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR044"
 			(at 118.364 264.922 0)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +7129,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR049")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8106,83 +7211,6 @@
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerGost:+12v")
-		(at 218.44 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3713bd1a-58a5-4455-8c39-70a312540926")
-		(property "Reference" "#PWR017"
-			(at 219.456 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "+3,3v"
-			(at 219.71 118.237 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a191508-63e4-4719-a7fe-9acb61d5d64b")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8359,7 +7387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cf5f89d-7b08-4c46-a2ab-b802d669d0c4")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 168.656 76.708 0)
 			(hide yes)
 			(show_name no)
@@ -8417,7 +7445,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8497,83 +7525,6 @@
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerGost:GND")
-		(at 171.45 210.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "413515f8-e72c-4fdc-bd92-8bd1f26d13f0")
-		(property "Reference" "#PWR041"
-			(at 169.164 210.312 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 208.788 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "093761e7-2994-4e50-9b26-678835c4d94e")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8754,7 +7705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449af2e8-bcb7-4cab-91e8-953ac3cc577c")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR035"
 			(at 79.756 211.328 0)
 			(hide yes)
 			(show_name no)
@@ -8813,7 +7764,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR040")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8831,7 +7782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4687655a-f25c-4285-98e4-c10314165810")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR037"
 			(at 106.426 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -8890,7 +7841,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR043")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9072,7 +8023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e3683c2-3a28-46ae-8630-6c1e9034c793")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR036"
 			(at 101.346 217.678 0)
 			(hide yes)
 			(show_name no)
@@ -9131,7 +8082,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR042")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9412,7 +8363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5db07161-7ef7-43bf-a1ac-4d9bf87974fd")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 89.408 234.442 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9495,7 +8446,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9512,7 +8463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e3765e0-352c-4836-95a9-8af4840b6ff6")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 104.394 78.232 0)
 			(hide yes)
 			(show_name no)
@@ -9570,7 +8521,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9670,7 +8621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62500147-9878-4ebd-be9b-1d665f7c0457")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR030"
 			(at 350.266 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9729,7 +8680,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9746,7 +8697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62dd65c0-80e6-4a68-962c-f0965ef2e11a")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 129.286 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -9805,7 +8756,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9823,7 +8774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63eb748c-8122-4c5c-9a88-322d1988cd06")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR042"
 			(at 106.934 257.302 0)
 			(hide yes)
 			(show_name no)
@@ -9882,7 +8833,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR048")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10329,7 +9280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7466be5e-a5ae-4f86-8103-2cfdcaa578fb")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR039"
 			(at 100.584 249.682 0)
 			(hide yes)
 			(show_name no)
@@ -10388,7 +9339,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR045")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10406,7 +9357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74717c0b-347f-42cc-9a68-bb90831b2ce6")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 294.386 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10465,7 +9416,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10483,7 +9434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75db9db7-cb1a-488d-b3c9-b440703fb436")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR022"
 			(at 94.234 156.972 0)
 			(hide yes)
 			(show_name no)
@@ -10542,7 +9493,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR027")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10706,81 +9657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "powerGost:GND")
-		(at 242.57 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c5b25b0-dde4-43de-abb9-0c58fe95e584")
-		(property "Reference" "#PWR023"
-			(at 244.856 133.858 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND*"
-			(at 242.57 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91701cec-bd27-4b2f-b7ed-081ad2463abd")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 307.34 187.96 90)
 		(unit 1)
@@ -10873,7 +9749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e1d72c7-96ad-45ad-afa5-76b1b1281729")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR029"
 			(at 68.834 178.562 0)
 			(hide yes)
 			(show_name no)
@@ -10932,7 +9808,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR033")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11031,7 +9907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f10fbee-055f-461e-8a21-65184612a412")
-		(property "Reference" "con4"
+		(property "Reference" "Klem_dirty1"
 			(at 307.34 191.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11099,7 +9975,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "con4")
+					(reference "Klem_dirty1")
 					(unit 1)
 				)
 			)
@@ -11116,7 +9992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "829ba3c1-631d-4c26-91b4-de3d429b0bf4")
-		(property "Reference" "Con3"
+		(property "Reference" "Klem_clear1"
 			(at 358.14 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11179,7 +10055,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "Con3")
+					(reference "Klem_clear1")
 					(unit 1)
 				)
 			)
@@ -11281,7 +10157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8abfef62-46c3-4945-bf92-53e3652b56de")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 321.056 202.438 0)
 			(hide yes)
 			(show_name no)
@@ -11340,84 +10216,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerGost:GND")
-		(at 218.44 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cb18aa7-4e8f-4ac0-b5c6-4fa52a2e14a3")
-		(property "Reference" "#PWR022"
-			(at 216.154 132.842 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 131.318 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0810fc35-338f-4a53-a0e6-3a6d3e7d5c9c")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR022")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11435,7 +10234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e852a7e-560b-4783-a5a9-a71edbedfbf4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 78.486 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -11494,88 +10293,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyLIB:Con_power")
-		(at 179.07 209.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91f3de5f-991c-4dab-a84d-00744cca769e")
-		(property "Reference" "Con5"
-			(at 182.88 208.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 179.07 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 179.07 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81a259ae-2fc2-4ea4-ba45-e089b65e5680")
-		)
-		(pin "2"
-			(uuid "8241077d-d7b8-46eb-8fca-b0ef1cb9e75e")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "Con5")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11593,7 +10311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "936681b1-f4df-4877-bdcf-23f09e566056")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR027"
 			(at 114.554 170.942 0)
 			(hide yes)
 			(show_name no)
@@ -11652,7 +10370,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11670,7 +10388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94714494-fed0-499f-ba76-398964fcdd1f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR023"
 			(at 113.284 162.052 0)
 			(hide yes)
 			(show_name no)
@@ -11729,7 +10447,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR028")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11929,7 +10647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98eed4cd-8b7b-4d1e-8ef4-f1d66f9d44fa")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 139.446 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11988,105 +10706,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:ISO1540")
-		(at 229.87 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99545c0a-38c7-4ddb-a011-ff361466e629")
-		(property "Reference" "U3"
-			(at 229.87 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ISO1540"
-			(at 229.87 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 229.87 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/iso1541.pdf"
-			(at 229.87 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8"
-			(at 229.87 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "80a0bced-a4e6-460a-ae85-93935af571c7")
-		)
-		(pin "5"
-			(uuid "f5c4df69-4bfd-41ee-ae9f-6df97485bb38")
-		)
-		(pin "6"
-			(uuid "b4e0a2a7-b28d-4b13-9017-ea254441b2c1")
-		)
-		(pin "2"
-			(uuid "6c2ccfeb-824a-4637-a2aa-39bd3f583423")
-		)
-		(pin "4"
-			(uuid "9f83c517-8579-4ba5-b7cc-7c4112aa63a8")
-		)
-		(pin "1"
-			(uuid "731e9562-c3fb-41e3-a362-a4789f2cf69c")
-		)
-		(pin "7"
-			(uuid "2ecbb26c-c326-4c43-923e-5d053efe7ed5")
-		)
-		(pin "3"
-			(uuid "11a7e033-0e56-4d5c-8326-f165adc050d8")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "U3")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12267,7 +10887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0da8c43-9a69-44c3-ad90-2dc5f7d96efe")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR024"
 			(at 128.524 162.052 0)
 			(hide yes)
 			(show_name no)
@@ -12326,7 +10946,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR029")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12343,7 +10963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a14c76c0-f7fd-4747-9172-e139439e6d05")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 85.344 73.152 0)
 			(hide yes)
 			(show_name no)
@@ -12401,7 +11021,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12418,7 +11038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1d85ea3-71cf-4dbd-b016-c48ae5f7526a")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR013"
 			(at 73.914 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -12476,7 +11096,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR0200")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12493,7 +11113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3a137f2-b5f4-4616-956a-47f833664e21")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 59.944 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -12551,7 +11171,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12730,7 +11350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9d2c2f2-3229-42bb-ae4b-d9f300f3be78")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR021"
 			(at 148.336 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -12789,7 +11409,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR026")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13068,7 +11688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92e5163-98c2-4605-9543-a7c0c1dc7499")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR045"
 			(at 75.184 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -13127,88 +11747,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MyLIB:Con_power")
-		(at 248.92 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc4c6fef-3031-4294-a7f2-b8a15e2f7bf9")
-		(property "Reference" "Con2"
-			(at 252.73 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 248.92 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 248.92 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2e6c65d-90a4-4fc6-9f20-a8fe1be564fd")
-		)
-		(pin "2"
-			(uuid "f74fd8d9-c6a2-4179-9231-954bc0c2bdaf")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "Con2")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -13383,7 +11922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf634a72-be9e-498f-9804-c7ca1019ba43")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 115.316 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13442,7 +11981,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -13617,7 +12156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6c66e2e-d9c0-4895-9bd6-113c8cc57fe9")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 119.634 78.232 0)
 			(hide yes)
 			(show_name no)
@@ -13675,7 +12214,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13693,7 +12232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc16f6de-2f75-4a10-a060-2c310604d366")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR038"
 			(at 154.686 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -13752,7 +12291,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR044")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14003,83 +12542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "powerGost:+5v")
-		(at 171.45 205.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dec6ebac-662f-4b14-8a0e-f5caa8faa23f")
-		(property "Reference" "#PWR039"
-			(at 172.466 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "+5v"
-			(at 170.18 204.597 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db587583-0ff3-44e5-9525-ed341db63c29")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "powerGost:GND")
 		(at 121.92 255.27 180)
 		(unit 1)
@@ -14091,7 +12553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0ae4261-e0c2-45c3-b325-a6360f7c69bd")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR040"
 			(at 119.634 254.762 0)
 			(hide yes)
 			(show_name no)
@@ -14150,7 +12612,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR046")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -14167,7 +12629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1525aff-ae82-49c0-94a2-80b9a176587c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 351.536 197.358 0)
 			(hide yes)
 			(show_name no)
@@ -14225,82 +12687,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerGost:GND")
-		(at 256.54 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e216e33e-a109-4136-8535-5f05aaccb54f")
-		(property "Reference" "#PWR010"
-			(at 258.826 58.928 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND*"
-			(at 256.54 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e2b9afee-59c5-4051-b74d-6bf9b8bca232")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR010")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14400,7 +12787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e901d66b-9cb8-4fd7-9189-94a81f3cf60c")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR043"
 			(at 89.154 258.572 0)
 			(hide yes)
 			(show_name no)
@@ -14459,7 +12846,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR0197")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14622,82 +13009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "powerGost:+12v")
-		(at 255.27 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebfbf1f4-75f1-44f2-a0b7-abd0056cf68d")
-		(property "Reference" "#PWR07"
-			(at 255.27 52.324 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "+3,3v*"
-			(at 254.127 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e77f2f50-35e1-429c-a638-7a5fc892cbe2")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 166.37 66.04 90)
 		(unit 1)
@@ -14801,7 +13112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0523c8c-dbd1-4daa-b1ae-50657e69cbe7")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR014"
 			(at 104.394 83.312 0)
 			(hide yes)
 			(show_name no)
@@ -14859,84 +13170,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR0199")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powerGost:+12v")
-		(at 242.57 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f19542fd-a02a-4130-a3cd-69a6168df1ec")
-		(property "Reference" "#PWR019"
-			(at 243.586 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "+3,3v*"
-			(at 243.84 119.507 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "577e4aa0-2a8a-4937-826e-6caecb334bbf")
-		)
-		(instances
-			(project "plat_power"
-				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR019")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15036,7 +13270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4dd5191-45a7-4fa8-a0d1-7466596d9eb7")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR018"
 			(at 60.96 112.014 0)
 			(hide yes)
 			(show_name no)
@@ -15094,7 +13328,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15454,7 +13688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fede350c-492b-442b-b6f3-a8d133a9820b")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 83.058 141.732 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15537,7 +13771,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15555,7 +13789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff6f724a-1019-499b-90c6-4243cf03f1ba")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR025"
 			(at 100.584 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -15614,7 +13848,7 @@
 		(instances
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
-					(reference "#PWR030")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)

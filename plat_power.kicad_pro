@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.3,
-          "width": 1.45
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -717,7 +717,7 @@
         "uuid": "0c96592f-cc66-4a92-8e29-bb9aa29ff8b8"
       }
     ],
-    "used_designators": "C8_TANTAL1,#PWR1-244,C5_TANTAL1,C1-87,C3_TANTAL1,C4_TANTAL1,C6_TANTAL1,C9_TANTAL1,Kontur1-2,M_Con1-8,L1-6,con1-5,Con1-5,D1-50,DRV1-7,I1-14,LED1,R1-76,U1-33,J1-7,JP1-9,ADC1,OU1",
+    "used_designators": "C8_TANTAL1,#PWR1-244,C5_TANTAL1,C1-87,C3_TANTAL1,C4_TANTAL1,C6_TANTAL1,C9_TANTAL1,Kontur1-2,M_Con1-8,L1-6,con1-5,Klem_dirty1,Con1-5,D1-50,DRV1-7,I1-14,LED1,R1-76,U1-33,OPER1,J1-7,JP1-9,ADC1,OU1,ISO1-8,Klem_clear1,REF1",
     "variants": []
   },
   "sheets": [
