@@ -5,6 +5,187 @@
 	(uuid "d8484589-1448-4c11-9029-5047a0584288")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2694,6 +2875,12 @@
 		(uuid "53240db8-b62d-437f-b409-56891839f21d")
 	)
 	(junction
+		(at 297.18 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53dee466-887b-473c-976a-0caed6eaa043")
+	)
+	(junction
 		(at 86.36 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2734,6 +2921,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f9b6056-605d-4b79-9174-c30a8b34f0be")
+	)
+	(junction
+		(at 316.23 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7091d610-861b-463d-b44e-af65e08f41be")
 	)
 	(junction
 		(at 114.3 115.57)
@@ -3165,6 +3358,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 204.47) (xy 297.18 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24105027-ebf4-4566-bf0b-f03066d3d3a1")
+	)
+	(wire
+		(pts
 			(xy 96.52 109.22) (xy 96.52 105.41)
 		)
 		(stroke
@@ -3285,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 198.12) (xy 299.72 198.12)
+			(xy 293.37 198.12) (xy 297.18 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4615,6 +4818,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 204.47) (xy 297.18 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89a6650-fbbf-4a23-9948-8b26dd158617")
+	)
+	(wire
+		(pts
 			(xy 111.76 20.32) (xy 111.76 25.4)
 		)
 		(stroke
@@ -4715,6 +4928,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 207.01) (xy 316.23 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84dcd20-3494-4212-b762-c11af5e8975a")
+	)
+	(wire
+		(pts
 			(xy 132.08 63.5) (xy 138.43 63.5)
 		)
 		(stroke
@@ -4802,6 +5025,16 @@
 			(type default)
 		)
 		(uuid "c2226747-a4fe-492e-b5db-a49edbb6cc5d")
+	)
+	(wire
+		(pts
+			(xy 316.23 207.01) (xy 316.23 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3118e9a-dd20-45f1-88af-c934c9e3c1f6")
 	)
 	(wire
 		(pts
@@ -5135,6 +5368,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 198.12) (xy 318.77 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f4611d-9f93-4770-9001-0062924eb5f7")
+	)
+	(wire
+		(pts
 			(xy 43.18 203.2) (xy 43.18 207.01)
 		)
 		(stroke
@@ -5305,7 +5548,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 198.12) (xy 318.77 198.12)
+			(xy 314.96 198.12) (xy 316.23 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5352,6 +5595,16 @@
 			(type default)
 		)
 		(uuid "f826165c-5796-4d9d-b28b-c114347cc800")
+	)
+	(wire
+		(pts
+			(xy 297.18 198.12) (xy 299.72 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89a6622-9132-40e8-adfb-4b715e8eb611")
 	)
 	(wire
 		(pts
@@ -6357,6 +6610,85 @@
 			(project "plat_power"
 				(path "/d8484589-1448-4c11-9029-5047a0584288"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 289.56 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18aef2b0-ed89-40ea-8d3b-5045143f48a4")
+		(property "Reference" "XT60M1"
+			(at 285.75 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Klem2"
+			(at 286.004 206.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+			(at 289.56 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 289.56 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5a6f5aa-09c8-42d2-94f5-6a39144e2c3f")
+		)
+		(pin "2"
+			(uuid "f8689ed4-4cdf-4bc4-a586-4cc998d76c8e")
+		)
+		(instances
+			(project "plat_power"
+				(path "/d8484589-1448-4c11-9029-5047a0584288"
+					(reference "XT60M1")
 					(unit 1)
 				)
 			)
