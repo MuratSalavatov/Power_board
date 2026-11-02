@@ -6983,8 +6983,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 76.2 84.582 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7552,8 +7553,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 106.934 84.836 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8426,8 +8428,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 121.92 79.502 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10321,8 +10324,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 62.23 96.012 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10634,8 +10638,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 87.63 74.422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11122,8 +11127,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 166.37 76.962 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12185,8 +12191,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 93.98 83.312 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12890,8 +12897,9 @@
 				)
 			)
 		)
-		(property "Value" "GND*"
+		(property "Value" "GND"
 			(at 106.68 79.502 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
