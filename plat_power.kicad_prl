@@ -4,7 +4,10 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "+14.4v",
+      "+3,3v"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -37,7 +40,6 @@
       "grid",
       "footprints_front",
       "footprints_back",
-      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",
@@ -50,7 +52,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00002a80_aa00aaaf",
+    "visible_layers": "00000000_00000000_00002a8a_aaaaaaaf",
     "zone_display_mode": 0
   },
   "git": {
